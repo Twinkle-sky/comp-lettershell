@@ -34,5 +34,4 @@ target_include_directories(lettershell PUBLIC
 # and application code.
 target_compile_definitions(lettershell PUBLIC
     SHELL_TASK_WHILE=0          # do NOT loop inside shellTask — caller drives the loop
-    SHELL_USING_CMD_EXPORT=0    # use command-table mode (no custom linker section needed)
 )
